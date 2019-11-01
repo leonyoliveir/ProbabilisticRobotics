@@ -1,3 +1,2 @@
-scan:
-  name: scan
-  queue_zie: 10
+topic: '/scan'
+queue_size: 10
