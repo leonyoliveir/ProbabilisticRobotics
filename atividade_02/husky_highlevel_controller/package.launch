@@ -1,5 +1,0 @@
-<launch>
-    <node name="husky_highlevel" pkg="husky_highlevel_controller" type="husky_highlevel_listener.cpp">
-        <rosparam command="load" file="$(find husky_highlevel_controller)/config/config.yaml"/>
-    </node>
-</launch>
